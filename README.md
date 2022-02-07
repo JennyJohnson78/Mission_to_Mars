@@ -70,6 +70,14 @@ Results:
 
 ![image](https://user-images.githubusercontent.com/67409852/145175333-29549d2e-f007-4b21-a984-cf8db0ce90bf.png)
 
-## Summary
+### Add Bootstrap 3 Components
+
+- Use the Bootstrap 3 grid system to update the index.html file so the website is mobile-responsive
+- Customize the facts table
+
+Facts Table:
 
 ![image](https://user-images.githubusercontent.com/67409852/145175151-84667909-1be1-4eff-9b8d-fc98296ba7de.png)
+
+## Summary
+
