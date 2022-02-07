@@ -11,6 +11,10 @@ Analysis Steps:
 
 ## Results
 
+Scrape Full-Resolution Mars Hemisphere Images and Titles
+
+- 
+
 ## Summary
 
 ![image](https://user-images.githubusercontent.com/67409852/145174812-c880db60-4f43-42d1-87c9-8a976c70a85f.png)
