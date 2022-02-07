@@ -46,6 +46,9 @@ for i in range(4):
 
 ```
 - Loop through the full-resolution image URL, click the link, find the Sample image anchor tag, and get the href
+
+![image](https://user-images.githubusercontent.com/67409852/145175542-27f3bbf0-1461-4549-be7c-3d704d9585a1.png)
+
 - Save the full-resolution image URL string as the value for the img_url key that will be stored in the dictionary
 - Save the hemisphere image title as the value for the title key that will be stored in the dictionary
 - Add the dictionary with the image URL string and the hemisphere image title to the list
@@ -56,12 +59,6 @@ hemisphere_image_urls
 ```
 
 ## Summary
-
-![image](https://user-images.githubusercontent.com/67409852/145174812-c880db60-4f43-42d1-87c9-8a976c70a85f.png)
-
-![image](https://user-images.githubusercontent.com/67409852/145175714-3cf7725e-e65f-4b10-bc7a-cbdc8814cf2b.png)
-
-![image](https://user-images.githubusercontent.com/67409852/145175542-27f3bbf0-1461-4549-be7c-3d704d9585a1.png)
 
 ![image](https://user-images.githubusercontent.com/67409852/145175151-84667909-1be1-4eff-9b8d-fc98296ba7de.png)
 
