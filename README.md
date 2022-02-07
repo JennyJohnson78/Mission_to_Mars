@@ -58,8 +58,12 @@ for i in range(4):
 hemisphere_image_urls
 ```
 
+### Update the Web App with Mars Hemisphere Images and Titles
+
+
+
+
+![image](https://user-images.githubusercontent.com/67409852/145175333-29549d2e-f007-4b21-a984-cf8db0ce90bf.png)
 ## Summary
 
 ![image](https://user-images.githubusercontent.com/67409852/145175151-84667909-1be1-4eff-9b8d-fc98296ba7de.png)
-
-![image](https://user-images.githubusercontent.com/67409852/145175333-29549d2e-f007-4b21-a984-cf8db0ce90bf.png)
