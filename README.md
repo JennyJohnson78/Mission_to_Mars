@@ -13,7 +13,15 @@ Analysis Steps:
 
 Scrape Full-Resolution Mars Hemisphere Images and Titles
 
-- 
+- Visit website to view Mars images
+- Use the DevTools to inspect the page for the proper elements to scrape
+- Next, create a list to hold the .jpg image URL string and title for each hemisphere image
+- Write code to retrieve the full-resolution image URL and title for each hemisphere image
+- Loop through the full-resolution image URL, click the link, find the Sample image anchor tag, and get the href
+- Save the full-resolution image URL string as the value for the img_url key that will be stored in the dictionary
+- Save the hemisphere image title as the value for the title key that will be stored in the dictionary
+- Add the dictionary with the image URL string and the hemisphere image title to the list
+- Print the list of dictionary items
 
 ## Summary
 
