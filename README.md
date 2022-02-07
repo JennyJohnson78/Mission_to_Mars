@@ -81,3 +81,4 @@ Facts Table:
 
 ## Summary
 
+Visualizations are an integral part of data analyrics and data science. While more and more companies and institutions are adopting Tableau software, there is still a need for web development within data analytics. This analysis shows how useful and powerful JavaScript can be when it comes to data exploration and visualization.
