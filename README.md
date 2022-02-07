@@ -60,10 +60,16 @@ hemisphere_image_urls
 
 ### Update the Web App with Mars Hemisphere Images and Titles
 
+- Create a new dictionary in the data dictionary to hold a list of dictionaries with the URL string and title of each hemisphere image
+- Create a function that will scrape the hemisphere data by using previous code
+- Run the app.py file, then check the Mongo database to make sure that it's retrieving all of the data
+- Modify the index.html file to access the database
+- Run the app.py file, open the index.html file, and click the "Scrape New Data" button
 
-
+Results:
 
 ![image](https://user-images.githubusercontent.com/67409852/145175333-29549d2e-f007-4b21-a984-cf8db0ce90bf.png)
+
 ## Summary
 
 ![image](https://user-images.githubusercontent.com/67409852/145175151-84667909-1be1-4eff-9b8d-fc98296ba7de.png)
