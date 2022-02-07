@@ -14,14 +14,46 @@ Analysis Steps:
 Scrape Full-Resolution Mars Hemisphere Images and Titles
 
 - Visit website to view Mars images
+
+```
+# Visit the mars nasa news site
+url = 'https://redplanetscience.com/'
+browser.visit(url)
+```
+
 - Use the DevTools to inspect the page for the proper elements to scrape
 - Next, create a list to hold the .jpg image URL string and title for each hemisphere image
+
+```
+# Create a list to hold the images and titles.
+hemisphere_image_urls = []
+```
 - Write code to retrieve the full-resolution image URL and title for each hemisphere image
+
+```
+# Write code to retrieve the image urls and titles for each hemisphere.
+for i in range(4):
+    #create empty dictionary
+    hemispheres = {}
+    browser.find_by_css('a.product-item h3')[i].click()
+    element = browser.find_link_by_text('Sample').first
+    img_url = element['href']
+    title = browser.find_by_css("h2.title").text
+    hemispheres["img_url"] = img_url
+    hemispheres["title"] = title
+    hemisphere_image_urls.append(hemispheres)
+    browser.back()
+
+```
 - Loop through the full-resolution image URL, click the link, find the Sample image anchor tag, and get the href
 - Save the full-resolution image URL string as the value for the img_url key that will be stored in the dictionary
 - Save the hemisphere image title as the value for the title key that will be stored in the dictionary
 - Add the dictionary with the image URL string and the hemisphere image title to the list
 - Print the list of dictionary items
+```
+# Print the list that holds the dictionary of each image url and title.
+hemisphere_image_urls
+```
 
 ## Summary
 
