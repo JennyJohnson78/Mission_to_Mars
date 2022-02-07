@@ -4,6 +4,11 @@
 
 BeautifulSoup and Splinter can be used on scraping-friendly sites to "scrape" images and data about those images. Scraped data can then be stored in a non-relational database such as Mongo DB. A web application is then be used to display the data, and alter the design of the web app to accommodate images. In this analysis, Mars data will be scraped for users to navigate between images online.
 
+Analysis Steps:
+- Scrape Full-Resolution Mars Hemisphere Images and Titles
+- Update the Web App with Mars Hemisphere Images and Titles
+- Add Bootstrap 3 Components
+
 ## Results
 
 ## Summary
