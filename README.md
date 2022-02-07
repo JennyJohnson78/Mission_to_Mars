@@ -46,10 +46,10 @@ for i in range(4):
 
 ```
 - Loop through the full-resolution image URL, click the link, find the Sample image anchor tag, and get the href
+- Save the full-resolution image URL string as the value for the img_url key that will be stored in the dictionary
 
 ![image](https://user-images.githubusercontent.com/67409852/145175542-27f3bbf0-1461-4549-be7c-3d704d9585a1.png)
 
-- Save the full-resolution image URL string as the value for the img_url key that will be stored in the dictionary
 - Save the hemisphere image title as the value for the title key that will be stored in the dictionary
 - Add the dictionary with the image URL string and the hemisphere image title to the list
 - Print the list of dictionary items
